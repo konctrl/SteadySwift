@@ -23,7 +23,7 @@ struct NavigationViews: View {
             Image(systemName: "gear").imageScale(.large)
         }
         
-        let navigationBarItems = HStack {
+        let navigationBarItemxs = HStack {
             leadingItem
             middleItem
             trailingItem

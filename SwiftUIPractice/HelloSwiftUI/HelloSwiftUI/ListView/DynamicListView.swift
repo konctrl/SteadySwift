@@ -54,7 +54,17 @@ struct DynamicListView: View {
                     }
                 }
             }
-        }
+        }.listStyle(GroupedListStyle())
+        /**
+         GroupedListStyle()
+         - Grouped, insetGrouped 둘 중 자동으로 선택됨
+         - iOS, tvOS에서만 사용 가능하다.
+         - 기기(iphone pro, iphone pro max)에 따라 사이즈 클래스가 compact이면 grouped, regular이면 insetGrouped 스타일이 적용된다.
+         - Apple HIG 가이드라인에서 regular width인 경우, insetGrouped 스타일이 사용하기 좋다고 언급함
+         
+         c.f. 가로 width가 compact인 경우에도, insetGrouped를 사용하고 싶다면, 사이즈 클래스를 강제할 수 있다.
+         .environment(\.horizontalSizeClass, .regular)
+         */
     }
 }
 

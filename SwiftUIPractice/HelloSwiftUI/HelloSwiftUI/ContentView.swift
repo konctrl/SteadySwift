@@ -8,13 +8,22 @@
 import SwiftUI
 
 struct ContentView: View {
+    @Environment(\.layoutDirection) var layoutDirection
+    
     var body: some View {
         
-        
-        ScrollView {
-            
-            FirstView()
+        if layoutDirection == .leftToRight {
+            return ScrollView {
+                FirstView()
+                // Text("Left to Right")
+            }
+        } else {
+            return ScrollView {
+                FirstView()
+                // Text("Right to Left")
+            }
         }
+        
     }
 }
 

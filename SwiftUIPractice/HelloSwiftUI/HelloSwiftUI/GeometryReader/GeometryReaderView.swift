@@ -65,4 +65,7 @@ struct GeometryReaderView: View {
 
 #Preview {
     GeometryReaderView()
+
 }
+
+

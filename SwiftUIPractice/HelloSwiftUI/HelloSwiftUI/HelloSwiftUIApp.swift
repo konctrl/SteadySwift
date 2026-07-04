@@ -11,7 +11,14 @@ import SwiftUI
 struct HelloSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-                ContentView()
+            ContentView()
+                .environment(\.locale, .init(identifier: "ko_KR"))
+                .environment(\.colorScheme, .light)
+            
+            ContentView()
+                .environment(\.locale, .init(identifier: "en_US"))
+                .environment(\.layoutDirection, .rightToLeft)
+                .environment(\.colorScheme, .dark)
         }
     }
 }

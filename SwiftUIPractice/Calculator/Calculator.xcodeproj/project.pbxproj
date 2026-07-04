@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		5C0001732FB1CC7400A7AC77 /* HelloSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		277151DE2FF8C2B200934189 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		5C0001752FB1CC7400A7AC77 /* HelloSwiftUI */ = {
+		277151E02FF8C2B200934189 /* Calculator */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = HelloSwiftUI;
+			path = Calculator;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5C0001702FB1CC7400A7AC77 /* Frameworks */ = {
+		277151DB2FF8C2B200934189 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -29,18 +29,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5C00016A2FB1CC7400A7AC77 = {
+		277151D52FF8C2B200934189 = {
 			isa = PBXGroup;
 			children = (
-				5C0001752FB1CC7400A7AC77 /* HelloSwiftUI */,
-				5C0001742FB1CC7400A7AC77 /* Products */,
+				277151E02FF8C2B200934189 /* Calculator */,
+				277151DF2FF8C2B200934189 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		5C0001742FB1CC7400A7AC77 /* Products */ = {
+		277151DF2FF8C2B200934189 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5C0001732FB1CC7400A7AC77 /* HelloSwiftUI.app */,
+				277151DE2FF8C2B200934189 /* Calculator.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,64 +48,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5C0001722FB1CC7400A7AC77 /* HelloSwiftUI */ = {
+		277151DD2FF8C2B200934189 /* Calculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5C00017E2FB1CC7500A7AC77 /* Build configuration list for PBXNativeTarget "HelloSwiftUI" */;
+			buildConfigurationList = 277151E92FF8C2B400934189 /* Build configuration list for PBXNativeTarget "Calculator" */;
 			buildPhases = (
-				5C00016F2FB1CC7400A7AC77 /* Sources */,
-				5C0001702FB1CC7400A7AC77 /* Frameworks */,
-				5C0001712FB1CC7400A7AC77 /* Resources */,
+				277151DA2FF8C2B200934189 /* Sources */,
+				277151DB2FF8C2B200934189 /* Frameworks */,
+				277151DC2FF8C2B200934189 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				5C0001752FB1CC7400A7AC77 /* HelloSwiftUI */,
+				277151E02FF8C2B200934189 /* Calculator */,
 			);
-			name = HelloSwiftUI;
+			name = Calculator;
 			packageProductDependencies = (
 			);
-			productName = HelloSwiftUI;
-			productReference = 5C0001732FB1CC7400A7AC77 /* HelloSwiftUI.app */;
+			productName = Calculator;
+			productReference = 277151DE2FF8C2B200934189 /* Calculator.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5C00016B2FB1CC7400A7AC77 /* Project object */ = {
+		277151D62FF8C2B200934189 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 2640;
-				LastUpgradeCheck = 2640;
+				LastSwiftUpdateCheck = 2660;
+				LastUpgradeCheck = 2660;
 				TargetAttributes = {
-					5C0001722FB1CC7400A7AC77 = {
-						CreatedOnToolsVersion = 26.4.1;
+					277151DD2FF8C2B200934189 = {
+						CreatedOnToolsVersion = 26.6;
 					};
 				};
 			};
-			buildConfigurationList = 5C00016E2FB1CC7400A7AC77 /* Build configuration list for PBXProject "HelloSwiftUI" */;
+			buildConfigurationList = 277151D92FF8C2B200934189 /* Build configuration list for PBXProject "Calculator" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 5C00016A2FB1CC7400A7AC77;
+			mainGroup = 277151D52FF8C2B200934189;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 5C0001742FB1CC7400A7AC77 /* Products */;
+			productRefGroup = 277151DF2FF8C2B200934189 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5C0001722FB1CC7400A7AC77 /* HelloSwiftUI */,
+				277151DD2FF8C2B200934189 /* Calculator */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5C0001712FB1CC7400A7AC77 /* Resources */ = {
+		277151DC2FF8C2B200934189 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -115,7 +115,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5C00016F2FB1CC7400A7AC77 /* Sources */ = {
+		277151DA2FF8C2B200934189 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -125,7 +125,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		5C00017C2FB1CC7500A7AC77 /* Debug */ = {
+		277151E72FF8C2B400934189 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -178,7 +178,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -189,7 +189,7 @@
 			};
 			name = Debug;
 		};
-		5C00017D2FB1CC7500A7AC77 /* Release */ = {
+		277151E82FF8C2B400934189 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -236,7 +236,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -246,7 +246,7 @@
 			};
 			name = Release;
 		};
-		5C00017F2FB1CC7500A7AC77 /* Debug */ = {
+		277151EA2FF8C2B400934189 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -261,29 +261,24 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = nonark.HelloSwiftUI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.floscope.Calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		5C0001802FB1CC7500A7AC77 /* Release */ = {
+		277151EB2FF8C2B400934189 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -298,50 +293,45 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = nonark.HelloSwiftUI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.floscope.Calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5C00016E2FB1CC7400A7AC77 /* Build configuration list for PBXProject "HelloSwiftUI" */ = {
+		277151D92FF8C2B200934189 /* Build configuration list for PBXProject "Calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5C00017C2FB1CC7500A7AC77 /* Debug */,
-				5C00017D2FB1CC7500A7AC77 /* Release */,
+				277151E72FF8C2B400934189 /* Debug */,
+				277151E82FF8C2B400934189 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5C00017E2FB1CC7500A7AC77 /* Build configuration list for PBXNativeTarget "HelloSwiftUI" */ = {
+		277151E92FF8C2B400934189 /* Build configuration list for PBXNativeTarget "Calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5C00017F2FB1CC7500A7AC77 /* Debug */,
-				5C0001802FB1CC7500A7AC77 /* Release */,
+				277151EA2FF8C2B400934189 /* Debug */,
+				277151EB2FF8C2B400934189 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5C00016B2FB1CC7400A7AC77 /* Project object */;
+	rootObject = 277151D62FF8C2B200934189 /* Project object */;
 }

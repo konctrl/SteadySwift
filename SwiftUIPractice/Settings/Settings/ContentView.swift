@@ -73,12 +73,8 @@ struct ContentView: View {
                             Text("개인 정보 보호 페이지")
                         }
                     }
-
                 }
             }.navigationBarTitle("설정", displayMode: .automatic)
-            
-           
-        
     }
 
 
